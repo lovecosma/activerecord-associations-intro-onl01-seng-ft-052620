@@ -19,7 +19,7 @@ SQL
 
 ActiveRecord::Base.connection.execute(sql)
 
-sql = <<-SQL
+sql2 = <<-SQL
   CREATE TABLE IF NOT EXISTS artists (
   id INTEGER PRIMARY KEY,
   name TEXT,
@@ -28,4 +28,4 @@ sql = <<-SQL
   )
 SQL
 
-ActiveRecord::Base.connection.execute(sql)
+ActiveRecord::Base.connection.execute(sql2)
