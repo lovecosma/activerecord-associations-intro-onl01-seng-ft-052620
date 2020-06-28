@@ -1,6 +1,8 @@
 require 'bundler/setup'
 require "sinatra/activerecord"
 require_relative '../app/models/artist.rb'
+require_relative '../app/models/genre.rb'
+
 Bundler.require
 
 Dir[File.join(File.dirname(__FILE__), "../app/models", "*.rb")].each {|f| require f}
