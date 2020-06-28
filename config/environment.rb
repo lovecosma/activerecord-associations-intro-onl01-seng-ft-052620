@@ -12,9 +12,9 @@ sql = <<-SQL
   CREATE TABLE IF NOT EXISTS artists (
   id INTEGER PRIMARY KEY,
   name TEXT,
-  song_id INTEGER
+  song_id INTEGER,
+  genre_id
   )
 SQL
 
 ActiveRecord::Base.connection.execute(sql)
-SQL
