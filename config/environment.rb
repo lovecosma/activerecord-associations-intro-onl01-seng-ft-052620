@@ -23,7 +23,7 @@ sql2 = <<-SQL
   CREATE TABLE IF NOT EXISTS genres (
   id INTEGER PRIMARY KEY,
   name TEXT,
-  song_id INTEGER,
+  artist_id INTEGER,
   genre_id INTEGER
   )
 SQL
