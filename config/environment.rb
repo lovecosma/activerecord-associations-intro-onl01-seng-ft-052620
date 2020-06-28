@@ -24,7 +24,7 @@ sql2 = <<-SQL
   id INTEGER PRIMARY KEY,
   name TEXT,
   artist_id INTEGER,
-  genre_id INTEGER
+  song_id INTEGER
   )
 SQL
 
