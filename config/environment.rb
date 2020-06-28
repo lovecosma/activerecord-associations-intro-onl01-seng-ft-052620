@@ -2,6 +2,8 @@ require 'bundler/setup'
 require "sinatra/activerecord"
 require_relative '../app/models/artist.rb'
 require_relative '../app/models/genre.rb'
+require_relative '../app/models/song.rb'
+
 
 Bundler.require
 
