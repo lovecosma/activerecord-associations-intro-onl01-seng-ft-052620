@@ -9,4 +9,5 @@ ActiveRecord::Base.establish_connection(connection_details)
 
 
 sql = <<-SQL
+
 SQL
