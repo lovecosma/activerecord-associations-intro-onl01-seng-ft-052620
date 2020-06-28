@@ -31,7 +31,7 @@ SQL
 ActiveRecord::Base.connection.execute(sql2)
 
 sql3 = <<-SQL
-  CREATE TABLE IF NOT EXISTS artists (
+  CREATE TABLE IF NOT EXISTS songs (
   id INTEGER PRIMARY KEY,
   name TEXT,
   song_id INTEGER,
