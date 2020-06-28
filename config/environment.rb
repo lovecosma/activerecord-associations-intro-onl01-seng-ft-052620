@@ -13,7 +13,7 @@ sql = <<-SQL
   id INTEGER PRIMARY KEY,
   name TEXT,
   song_id INTEGER,
-  genre_id
+  genre_id INTEGER
   )
 SQL
 
