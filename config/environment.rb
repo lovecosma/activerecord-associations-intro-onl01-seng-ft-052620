@@ -18,3 +18,14 @@ sql = <<-SQL
 SQL
 
 ActiveRecord::Base.connection.execute(sql)
+
+sql = <<-SQL
+  CREATE TABLE IF NOT EXISTS artists (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  song_id INTEGER,
+  genre_id INTEGER
+  )
+SQL
+
+ActiveRecord::Base.connection.execute(sql)
