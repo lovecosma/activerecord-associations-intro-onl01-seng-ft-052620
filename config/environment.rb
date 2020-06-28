@@ -13,7 +13,7 @@ sql = <<-SQL
   CREATE TABLE IF NOT EXISTS artists (
   id INTEGER PRIMARY KEY,
   name TEXT,
-  song_id
+  song_id INTEGER
   )
 SQL
 
